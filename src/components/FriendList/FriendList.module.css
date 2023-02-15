@@ -1,0 +1,24 @@
+.friendList{
+    flex-direction: column;
+    
+    width: 300px;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 17px rgb(74, 71, 71);
+}
+.friendList>li{
+    flex-direction: row;
+}
+.circle__true{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.circle__false{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}

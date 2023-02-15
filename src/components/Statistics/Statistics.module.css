@@ -1,0 +1,10 @@
+.Statistics{
+    text-align: center;
+
+    width: 300px;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 17px rgb(74, 71, 71);
+}
+
