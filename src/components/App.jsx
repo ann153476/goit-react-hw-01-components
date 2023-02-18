@@ -12,6 +12,7 @@ import friends from "../data/friends.json"
 import TransactionHistory from "./TransactionHistory/TransactionHistory.jsx"
 import transactions from "../data/transactions.json"
 
+const title = "Upload stats";
 
 
 export const App = () => {
@@ -24,7 +25,9 @@ export const App = () => {
     avatar={user.avatar}
     stats={user.stats}
     />
-    <Statistics stats={data}
+    <Statistics 
+    stats={data} 
+    title={title}
     />
     <FriendList friends={friends}
     />

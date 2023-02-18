@@ -1,0 +1,12 @@
+.circle__true{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.circle__false{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
