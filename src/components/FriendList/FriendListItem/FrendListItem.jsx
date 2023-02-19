@@ -10,7 +10,7 @@ const FriendListItem = ({ avatar, name, isOnline}) => {
       </li>
     );
   };
-
+//////////////////////////
   FriendListItem.propTypes = {
     friend: PropTypes.shape({
       avatar: PropTypes.string.isRequired,
